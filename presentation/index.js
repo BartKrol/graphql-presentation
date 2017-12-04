@@ -40,6 +40,7 @@ const theme = createTheme({
 
 const images = {
   bart: require("../assets/bart.png"),
+  bart2: require("../assets/bart2.png"),
   future: require("../assets/future.png"),
   arch1: require("../assets/architecture1.png"),
   arch2: require("../assets/architecture2.png"),
@@ -86,7 +87,7 @@ export default class Presentation extends React.Component {
               <Appear><Text size={1} margin="20px 20px 0 0" textColor="secondary" >Btw: #game-club</Text></Appear>
             </Fill>
             <Fill>
-              <Image src={ images.bart } height="500" style={{ border: "1px solid #f3f2f6" }}/>
+              <Image src={ images.bart2 } height="500" style={{ border: "1px solid #f3f2f6" }}/>
             </Fill>
           </Layout>
         </Slide>
