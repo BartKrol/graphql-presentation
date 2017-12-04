@@ -1,0 +1,11 @@
+type Starship {
+  id: ID!
+  name: String!
+  length: Float
+}
+
+query Starships {
+  id
+  name
+  length
+}

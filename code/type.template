@@ -1,0 +1,9 @@
+type StarshipsQuery = {
+  starships: Array<
+    {
+    __typename: 'Starship',
+    name: string,
+    length: ?float
+    }
+  >
+}

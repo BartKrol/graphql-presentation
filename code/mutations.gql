@@ -1,0 +1,16 @@
+mutation addComment(id: ID!, $comment: String!) {
+  submitComment(movieId: $id, content: $comment) {
+    id
+    content
+    postedBy {
+      id
+      username
+    }
+    createdAt
+  }
+}
+
+variables: {
+  id: "259316",
+  comment: "I was laughing all the time xD"
+}
