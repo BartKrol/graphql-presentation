@@ -9,9 +9,9 @@ module.exports = {
     "./index"
   ],
   output: {
-    path: path.join(__dirname),
+    path: path.join(__dirname, './dist'),
     filename: "bundle.js",
-    publicPath: "/"
+    publicPath: "/dist/"
   },
   plugins: [
     new webpack.DefinePlugin({
